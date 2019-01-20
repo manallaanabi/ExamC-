@@ -4,8 +4,9 @@
 
 #ifndef UNTITLED3_YTM_H
 #define UNTITLED3_YTM_H
+//in this section we will calculate r by approximating the YTM by using the secant method as it provides the best approximation of true YTM,
+//We will use f(r)=(PMT/(1+1/((1+r)^n-1))-PV 
 
-#endif //UNTITLED3_YTM_H
 void YTM(){
 int r,a,b,i;
 
@@ -20,3 +21,4 @@ int r,a,b,i;
     cout << "rate: "  <<  r << "\n";
 }
 
+#endif //UNTITLED3_YTM_H
